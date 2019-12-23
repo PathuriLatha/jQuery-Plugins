@@ -1,0 +1,27 @@
+html, body{
+  background : black;
+  color : white;
+  height : 100%;
+}
+html{
+  display : table;
+  margin : auto;
+}
+body{
+  display : table-cell;
+  vertical-align : middle;
+}
+.container{
+  font-size : 40px;
+  text-align : center;
+}
+.container img{
+  width : 30%
+}
+.timer{
+  width : 300px;
+  margin : 0px auto;
+}
+.jst-hours, .jst-minutes, .jst-seconds{
+  float : left;
+}

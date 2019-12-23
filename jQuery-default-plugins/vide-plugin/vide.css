@@ -1,0 +1,59 @@
+/*body{
+  background : #262626;
+}*/
+*{
+  padding : 0px;
+  margin : 0px;
+}
+.wrapper{
+  height : 100vh;
+}
+.content-area{
+  width : 1170px;
+  margin : 0px auto;
+}
+.logo{
+  width : 30%;
+  float : left;
+}
+nav{
+  height : 50px;
+}
+nav ul{
+  list-style : none;
+  width : 60%;
+  float : right;
+}
+nav ul li{
+  display : inline-block;
+  padding : 20px 30px;
+}
+nav ul li a{
+  text-decoration : none;
+  font-family : poppins;
+  color : white;
+  text-transform : uppercase;
+}
+.content-text{
+  width : 520px;
+  margin : 140px auto;
+  text-align : center;
+}
+h2{
+  color : white;
+  font-size : 60px;
+}
+.content-text p{
+  color : white;
+  font-size : 30px;
+}
+.content-text a{
+  text-decoration : none;
+  display : inline-block;
+  background : red;
+  color : white;
+  padding : 15px 30px;
+  font-size : 18px;
+  margin-top : 30px;
+  text-transform : uppercase;
+}

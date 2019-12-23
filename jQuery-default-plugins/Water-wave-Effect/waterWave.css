@@ -1,0 +1,25 @@
+*{
+  margin : 0px;
+  padding : 0px;
+}
+
+.banner{
+  background-image : url("./images/butterfly.jpg");
+  background-position : center;
+  -webkit-background-size : cover;
+  background-size : cover;
+  height : 100vh;
+}
+h2{
+  top : 50%;
+  left : 30%;
+  -webkit-transform : transform(-50%, -50%);
+  -moz-transform : transform(-50%, -50%);
+  -ms-transform: transform(-50%, -50%);
+  o-transform: transform(-50%, -50%);
+  transform: transform(-50%, -50%);
+  font-family: poppins;
+  font-size: 4em;
+  color : blue;
+  position : absolute;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div id="side-bar">
+    <div class="toggle-btn" onclick="toggleFunction()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="dashboard.js"></script>
+  <script>
+   function toggleFunction(){
+    document.getElementById("side-bar").classList.toggle("active");
+   }
+  </script>
+</body>
+</html>
