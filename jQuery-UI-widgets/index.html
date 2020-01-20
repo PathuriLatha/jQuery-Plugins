@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery UI widgets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h2>jQuery UI widgets</h2>
+    <button id="btnAddProject">Add Project</button>
+    <div id="projects">
+      <ul id="main">
+        <li><a href="#personal">Personal</a></li>
+        <li><a href="#work">Work</a></li>
+      </ul>
+      <ol id="personal">
+        <li><input type="checkbox">Going outside</li>
+        <li><input type="checkbox">meet friends</li>
+      </ol>
+      <ol id="work">
+        <li><input type="checkbox">Giving updates</li>
+        <li><input type="checkbox">Doing tasks</li>
+      </ol>
+    </div>
+    <button id="btnAddTask">Add Task</button>
+    <div id="project-dialog" style="display: none" title="Add a project">
+      <label for="new-project">Project name:</label>
+      <input type="text" id="new-project" >
+    </div>
+    <div id="task-dialog" style="display: none" title="Add a task">
+      <label for="new-task">task name:</label>
+      <input type="text" id="new-task" >
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
